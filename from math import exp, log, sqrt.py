@@ -5,7 +5,7 @@ print("Output #11:{0:.4f}".format(exp(3)))
 print("Output #12:{0:.2f}".format(log(4)))
 print("Output #13:{0:.1f}".format(sqrt(81)))
 
-# 문자열
+# String
 print("Output #14: {0:s}".format('I\'m enjoying learning prthon.'))            
 print("Output #15: {0:s}".format("This is a long string. Without the backslash\
 it would run off of the page on the right in the text editor and be very\
@@ -61,14 +61,15 @@ string4 = "$$The unwanted characters have been removed.__---++"
 string4_strip = string4.strip('$_-+')
 print("Output #31: {0:s}".format(string4_strip))      
 
-#replace 문자열 내에 있는 하나의 문자나 집합을 다른 문자 혹은 다른 문자 집합으로 치환하는 방법
+#replace How to replace one character or set in a string with another character or another character set.
 string5 = "Let's replace the spaces in this sentence with other characters."
 string5_replace = string5.replace(" ", "!@!")
 print("Output #32 (with !@!): {0:s}".format(string5_replace))
 string5_replace = string5.replace(" ",",")
 print("Output #33 (with commas): {0:s}".format(string5_replace))
 
-# lower모든 영어를 소문자로, upper 대문자로, capitalize 문자영 내의 첫 번째 문자에 upper, 남은 문자들에게는 lower
+# lower : Converts all English to lower case, upper - Converts all English to uppercase
+# capitalize The first character in the string is upper, and the remaining characters are lower.
 string6 = "Here's WHAT Happens WHEN You Use lower."
 print("Output #34: {0:s}".format(string6.lower()))
 string7 = "Here's what Happens when You Ues UPPER."
@@ -79,3 +80,6 @@ string5_list = string5.split()
 print("Output #37: (on each word):")
 for word in string5_list:
     print("{0:s}".format(word.capitalize()))
+    
+    
+#References by Foudations for Analytics with Python.
