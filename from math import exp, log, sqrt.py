@@ -45,7 +45,7 @@ string2_list[-1]))
 #join 
 print("Output #25: {0}".format(','.join(string2_list))) 
 
-#strip (strip, lstrip, rstrips), 문자열의 끝에서 원하지 않는 문자(들)을 삭제
+#strip (strip, lstrip, rstrips), Removes unwanted character (s) from the end of the string.
 string3 = " Remove  unwanted characters   from this string.\t\t    \n"
 print("Output #26: string3: {0:s}".format(string3))
 string3_lstrip = string3.lstrip()
