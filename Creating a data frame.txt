@@ -1,0 +1,14 @@
+
+Task 1. Creating a data frame.
+Step0 : Create the next data frame (Sales2).
+ID   Product    Price ($)  QTY Discount(%) 
+P01 Monitor   300.99     9     50 
+P02 Mouse     50.50      30    20 
+P03 Keyboard 40.38      25     0 
+P04 Printer    75.52      9      30
+Step1: Add information about new product to Sales2 data.
+Step 2: Link the final price (Final_Price) of the price discount product to the additional column (column) of Sales2 data.
+- Example: Final price of mouse 50.50 * (1 - 20/100) = $ 40.4
+Step 3: Final_Price Print a product name that is less than the averaged final price.
+
+Reference Professor LeeGW
