@@ -28,7 +28,7 @@ corr[upper.tri(corr)] <- NA; corr
 Apps_Reg <- lm(Sales ~ Price+ Screenshots + Rating_Score + Log_Rating_Num + Business + Finance + Health + Utilities, data=Apps)
 summary(Apps_Reg)
 
-Reference Professor LeeGW
+## Reference Professor LeeGW ##
 
 
 
